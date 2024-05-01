@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.KarpovProject"
+        tools:targetApi="31">
+        <activity
+            android:name=".smart600"
+            android:exported="false" />
+        <activity
+            android:name=".KCAS"
+            android:exported="false" />
+        <activity
+            android:name=".VTX600"
+            android:exported="false" />
+        <activity
+            android:name=".rx6600"
+            android:exported="false" />
+        <activity
+            android:name=".rtx4060"
+            android:exported="false" />
+        <activity
+            android:name=".gtx1660super"
+            android:exported="false" />
+        <activity
+            android:name=".ryzen5600x"
+            android:exported="false" />
+        <activity
+            android:name=".i914900kf"
+            android:exported="false" />
+        <activity
+            android:name=".i512400f"
+            android:exported="false" />
+        <activity
+            android:name=".b760m"
+            android:exported="false" />
+        <activity
+            android:name=".b650"
+            android:exported="false" />
+        <activity
+            android:name=".b450m"
+            android:exported="false" />
+        <activity
+            android:name=".b660m"
+            android:exported="false" />
+        <activity
+            android:name=".savedactivity"
+            android:exported="false" />
+        <activity
+            android:name=".settingsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".regisetractivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".autorisationactivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".powerrussianactivity"
+            android:exported="false" />
+        <activity
+            android:name=".russianGraphicscardactivity"
+            android:exported="false" />
+        <activity
+            android:name=".processorrussianactivity"
+            android:exported="false" />
+        <activity
+            android:name=".motherboardrussianacitvity"
+            android:exported="false" />
+        <activity
+            android:name=".russianactivity"
+            android:exported="false" />
+    </application>
+
+</manifest>

@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "225894157206",
+    "project_id": "login-and-register-proje-2f954",
+    "storage_bucket": "login-and-register-proje-2f954.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:225894157206:android:8445dcd19dbbce770f2bb7",
+        "android_client_info": {
+          "package_name": "com.example.karpovproject"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZGJ25Zcq4e9GCs5LOXH6ehUcHNjCaL9s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
